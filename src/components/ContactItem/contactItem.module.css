@@ -1,0 +1,27 @@
+.contact__item {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 20px;
+}
+
+.contact__item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.btn {
+  /* background-color: white;
+  color: blue; */
+
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+}
+
+.name {
+  font-weight: bold;
+}

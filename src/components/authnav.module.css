@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link:first-child {
+  margin-right: 10px;
+}
